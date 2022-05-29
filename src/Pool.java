@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -84,7 +83,7 @@ public class Pool {
             } else if (command.equals(end)) {
                 System.exit(0);
             } else {
-                System.out.println("INVALID Повторите попытку!");
+                System.out.println("Error! Bitte geben Sie andere Befehl!");
             }
         }
 
